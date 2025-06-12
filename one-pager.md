@@ -18,7 +18,7 @@ Full Stack Web Developer with 5+ years of experience delivering robust, scalable
 
 ## Experience
 
-**Senior Analyst | Accenture Argentina**  
+**Packaged App Development Senior Analyst | Accenture Argentina**  
 *Feb 2025 – Present*  
 - Develop and maintain web applications and packaged solutions for enterprise clients.
 
