@@ -3,7 +3,11 @@
 Buenos Aires, Argentina
 
 **Contact:** juanmanueldaza@gmail.com  
-**LinkedIn:** [linkedin.com/in/juanmanueldaza](https://www.linkedin.com/in/juanmanueldaza)
+**LinkedIn:** [linkedin.com/in/juanmanueldaza](https://www.linkedin.com/in/juanmanueldaza)  
+**Github:** [github.com/juanmanueldaza](https://github.com/juanmanueldaza)  
+**Gitlab:** [gitlab.com/juanmanueldaza](https://gitlab.com/juanmanueldaza)  
+**Website:** [daza.ar](https://daza.ar/)
+
 
 ---
 
