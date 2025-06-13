@@ -1,18 +1,17 @@
 # Juan Manuel Daza
-**Full Stack Web Developer | Bridging Technology, Creativity & Culture**  
+**Full Stack Web Developer**  
 Buenos Aires, Argentina
 
 **Contact:** juanmanueldaza@gmail.com  
-**LinkedIn:** [linkedin.com/in/juanmanueldaza](https://www.linkedin.com/in/juanmanueldaza)  
-**Github:** [github.com/juanmanueldaza](https://github.com/juanmanueldaza)  
-**Gitlab:** [gitlab.com/juanmanueldaza](https://gitlab.com/juanmanueldaza)  
-**Website:** [daza.ar](https://daza.ar/)
-
+[linkedin.com/in/juanmanueldaza](https://www.linkedin.com/in/juanmanueldaza)  
+[github.com/juanmanueldaza](https://github.com/juanmanueldaza)  
+[gitlab.com/juanmanueldaza](https://gitlab.com/juanmanueldaza)  
+[daza.ar](https://daza.ar/)
 
 ---
 
 ## Summary
-Full Stack Web Developer with 5+ years of experience delivering robust, scalable solutions in JavaScript, PHP, Node.js, and Python. Expert in Vue, React, CodeIgniter, Django, and Nest.js. Adept at leading migrations, building user-centric applications, and integrating technology with creative disciplines. Bilingual (Spanish/English).
+Full Stack Developer with 5+ years of experience in JavaScript, PHP, Node.js, and Python. Expert in Vue, React, CodeIgniter, Django, and Nest.js. Bilingual (Spanish/English).
 
 ---
 
@@ -20,45 +19,36 @@ Full Stack Web Developer with 5+ years of experience delivering robust, scalable
 
 **Packaged App Development Senior Analyst | Accenture Argentina**  
 *Feb 2025 – Present*  
-- Develop and maintain web applications and packaged solutions for enterprise clients.
+- Develop and maintain enterprise web applications.
 
-**Full Stack Developer | INAMU - Instituto Nacional de la Música**  
+**Full Stack Developer | INAMU**  
 *Jan 2024 – Feb 2025*  
-- Designed, built, and maintained web applications for Argentinian’s music institute using PHP, CodeIgniter, MySQL, and Docker.
-- Improved user experience and accessibility for thousands of musicians nationwide.
+- Built and maintained apps for Argentina’s music institute (PHP, CodeIgniter, MySQL, Docker).
 
-**Partner & Full Stack Developer | Cambá - Laboratorio de Tecnología**  
+**Partner & Full Stack Developer | Cambá**  
 *Apr 2023 – Feb 2025*  
-- Migrated the AdminSE frontend to Vue.js, reducing load times and enhancing performance.
-- Developed new features for Colmena Software to support local media productions.
+- Migrated AdminSE frontend to Vue.js.  
+- Added features to Colmena Software for local media.
 
-**Past Roles & Freelance Projects:**  
-- **DW Akademie:** Developed new features for Colmena Software.  
-- **AdminSE:** Led a successful frontend migration to Vue 3 using modern frameworks.  
-- **Teambre9:** Created an MVP for custom sports t-shirt design incorporating 3D elements.  
-- **Skydropx:** Implemented solutions using Node.js, TypeScript, and Vue 3.  
-- **GPE Sistemas:** Developed web microservices for IoT devices.  
-- **Journalism Roles:**  
-  - **Copesa (Revista Paula):** Freelance contributor.  
-  - **Página 12 (Suplemento NO):** Freelance journalist.  
-  - **Grupo Clarín (Suplemento Sí, Suplemento de Espectáculos, Revista Ñ):** Freelance contributor.  
-  - **Rolling Stone Argentina:** Journalist, covered shows and conducted interviews.  
-  - **Editorial Perfil (Revista Hombre):** Journalist, wrote articles and interviews, assisted in production.
+**Other Projects:**  
+- **DW Akademie:** Developed features for Colmena Software.  
+- **Teambre9:** MVP for sports t-shirt online design (3D).  
+- **Skydropx:** Developed and mantained HR Internal Sites,  
+- **GPE Sistemas:** Web microservices for IoT.  
+- **Journalism:** Copesa, Página 12, Clarín, Rolling Stone, Perfil.
 
 ---
 
 ## Skills
-- **Technical Skills:** Vue.js, React, JavaScript, TypeScript, PHP, Python, Node.js, CodeIgniter, Django, Nest.js, MySQL, Docker, HTML, CSS
-- **Tools & Methodologies:** Git, REST APIs, Webpack, Vite, Pinia, PrimeVue, Axios, Agile, Responsive Design
-- **Problem Solving:** API integration, web scraping, scalable system architecture, performance optimization
-- **Soft Skills:** Communication, teamwork, creative problem-solving, project leadership
+- **Tech:** Vue.js, React, JavaScript, TypeScript, PHP, Python, Node.js, CodeIgniter, Django, Nest.js, MySQL, Docker, HTML, CSS
+- **Tools:** Git, REST APIs, Webpack, Vite, Pinia, PrimeVue, Axios
+- **Other:** API integration, scalable systems, performance, teamwork
 - **Languages:** Spanish (Native), English (C1+)
 
 ---
 
 ## Education
-- **Acámica:** Full Stack Web Development (2020–2021)  
-- **Universidad Nacional de Tres de Febrero:** Digital Arts (Incomplete)  
-- **Universidad de Buenos Aires:** Literature (Incomplete)
+- **Acámica:** Full Stack Web Dev (2020–2021)  
+- **UNTREF:** Electronic Arts (Inc.)  
+- **UBA:** Literature (Inc.)  
 - **Tea:** Journalism (2003–2005)
-
