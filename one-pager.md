@@ -52,7 +52,7 @@ Full Stack Web Developer with 5+ years of experience delivering robust, scalable
 - **Tools & Methodologies:** Git, REST APIs, Webpack, Vite, Pinia, PrimeVue, Axios, Agile, Responsive Design
 - **Problem Solving:** API integration, web scraping, scalable system architecture, performance optimization
 - **Soft Skills:** Communication, teamwork, creative problem-solving, project leadership
-- **Languages:** Spanish (Native), English (Bilingual)
+- **Languages:** Spanish (Native), English (C1+)
 
 ---
 
