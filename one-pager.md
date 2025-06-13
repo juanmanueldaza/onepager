@@ -24,7 +24,7 @@ Full Stack Web Developer with 5+ years of experience delivering robust, scalable
 
 **Full Stack Developer | INAMU - Instituto Nacional de la Música**  
 *Jan 2024 – Feb 2025*  
-- Designed, built, and maintained web applications for Argentina’s music community using PHP, CodeIgniter, MySQL, and Docker.
+- Designed, built, and maintained web applications for Argentinian’s music institute using PHP, CodeIgniter, MySQL, and Docker.
 - Improved user experience and accessibility for thousands of musicians nationwide.
 
 **Partner & Full Stack Developer | Cambá - Laboratorio de Tecnología**  
