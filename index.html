@@ -62,23 +62,92 @@
     .markdown-body th, .markdown-body td {
       border-color: #444c56;
     }
+    .header-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #181a1b;
+      padding: 18px 32px;
+      border-bottom: 1.5px solid #222226;
+      font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .header-nav .contacts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+    }
+    .header-nav .contacts a, .header-nav .contacts span {
+      color: #8ab4f8;
+      text-decoration: none;
+      font-size: 1em;
+      transition: color 0.2s;
+    }
+    .header-nav .contacts a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .header-nav .pdf-btn {
+      padding: 8px 20px;
+      font-size: 1em;
+      border-radius: 6px;
+      background: #23232e;
+      color: #e6e6e6;
+      border: 1px solid #444c56;
+      cursor: pointer;
+      margin-left: 24px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .header-nav .pdf-btn:hover {
+      background: #444c56;
+      color: #fff;
+    }
+    @media (max-width: 600px) {
+      .header-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 12px 8px;
+      }
+      .header-nav .contacts {
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header-nav .pdf-btn {
+        margin-left: 0;
+      }
+    }
   </style>
   <!-- Add jsPDF and html2canvas -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
+  <nav class="header-nav">
+    <div class="contacts">
+      <span>juanmanueldaza@gmail.com</span>
+      <a href="https://www.linkedin.com/in/juanmanueldaza" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/juanmanueldaza" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://gitlab.com/juanmanueldaza" target="_blank" rel="noopener">GitLab</a>
+      <a href="https://daza.ar/" target="_blank" rel="noopener">daza.ar</a>
+    </div>
+    <button id="download-pdf" class="pdf-btn">Download PDF</button>
+  </nav>
   <div class="terminal-window">
     <article id="cv" class="markdown-body terminal-body"></article>
-  </div>
-  <div style="text-align:center; margin-top: 24px;">
-    <button id="download-pdf" style="padding: 10px 24px; font-size: 1.1em; border-radius: 6px; background: #23232e; color: #e6e6e6; border: 1px solid #444c56; cursor: pointer;">Download PDF</button>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     fetch('one-pager.md')
       .then(response => response.text())
       .then(md => {
+        // Remove the contact section from the markdown before rendering
+        const contactRegex = /\*\*Contact:.*?---/s;
+        md = md.replace(contactRegex, '---');
         document.getElementById('cv').innerHTML = marked.parse(md);
       });
 
