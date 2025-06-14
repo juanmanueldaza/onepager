@@ -63,10 +63,16 @@
       border-color: #444c56;
     }
   </style>
+  <!-- Add jsPDF and html2canvas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
   <div class="terminal-window">
     <article id="cv" class="markdown-body terminal-body"></article>
+  </div>
+  <div style="text-align:center; margin-top: 24px;">
+    <button id="download-pdf" style="padding: 10px 24px; font-size: 1.1em; border-radius: 6px; background: #23232e; color: #e6e6e6; border: 1px solid #444c56; cursor: pointer;">Download PDF</button>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
@@ -75,6 +81,22 @@
       .then(md => {
         document.getElementById('cv').innerHTML = marked.parse(md);
       });
+
+    document.getElementById('download-pdf').addEventListener('click', async function() {
+      const element = document.querySelector('.terminal-window');
+      // Wait a moment to ensure rendering is complete
+      await new Promise(r => setTimeout(r, 100));
+      html2canvas(element, { scale: 2, useCORS: true }).then(canvas => {
+        const imgData = canvas.toDataURL('image/png');
+        const pdf = new jspdf.jsPDF({
+          orientation: 'portrait',
+          unit: 'px',
+          format: [canvas.width, canvas.height]
+        });
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+        pdf.save('one-pager.pdf');
+      });
+    });
   </script>
 </body>
 </html>
