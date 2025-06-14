@@ -107,6 +107,9 @@
       cursor: pointer;
       margin-left: 24px;
       transition: background 0.2s, color 0.2s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     .header-nav .pdf-btn:hover {
       background: #444c56;
@@ -142,7 +145,9 @@
       <a href="https://gitlab.com/juanmanueldaza" target="_blank" rel="noopener" aria-label="GitLab" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
       <a href="https://daza.ar/" target="_blank" rel="noopener" aria-label="Website" title="Website"><i class="fa-solid fa-globe"></i></a>
     </div>
-    <button id="download-pdf" class="pdf-btn">Download PDF</button>
+    <button id="download-pdf" class="pdf-btn" aria-label="Download PDF" title="Download PDF">
+      <i class="fa-solid fa-file-arrow-down"></i>
+    </button>
   </nav>
   <div class="terminal-window">
     <article id="cv" class="markdown-body terminal-body"></article>
@@ -170,7 +175,7 @@
           format: [canvas.width, canvas.height]
         });
         pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
-        pdf.save('one-pager.pdf');
+        pdf.save('daza-one-pager-2025.pdf');
       });
     });
   </script>
