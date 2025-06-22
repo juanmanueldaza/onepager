@@ -34,7 +34,7 @@
 
         <!-- Daza Navbar (remote) -->
         <link rel="stylesheet" href="https://navbar.daza.ar/navbar.css" />
-        <script src="https://navbar.daza.ar/config/navbar-config.js"></script>
+        <!-- <script src="https://navbar.daza.ar/config/navbar-config.js"></script> -->
         <script src="https://navbar.daza.ar/navbar.js"></script>
         <style>
             :root {
@@ -176,11 +176,17 @@
                 });
             }
 
-            const navbar = new DazaNavbar({
+            window.initDazaNavbar({
                 showPdfButton: true,
                 pdfCallback: downloadPdf,
+                contacts: [
+                    { href: "mailto:juanmanueldaza@gmail.com", icon: "fa-solid fa-envelope", label: "Email" },
+                    { href: "https://www.linkedin.com/in/juanmanueldaza", icon: "fa-brands fa-linkedin", label: "LinkedIn" },
+                    { href: "https://github.com/juanmanueldaza", icon: "fa-brands fa-github", label: "GitHub" },
+                    { href: "https://gitlab.com/juanmanueldaza", icon: "fa-brands fa-gitlab", label: "GitLab" },
+                    { href: "https://daza.ar/", icon: "fa-solid fa-globe", label: "Website" }
+                ]
             });
-            navbar.render();
 
             fetch("https://data.daza.ar/md/one-pager.md")
                 .then((response) => response.text())
