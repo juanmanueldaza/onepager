@@ -165,10 +165,10 @@
             <article id="cv" class="markdown-body terminal-body"></article>
         </div>
         <script type="module">
-            import { fetchAndRenderMarkdown, downloadPdfUtil } from "https://mdsite.daza.ar/mdsite.js";
+            import { fetchAndRenderMarkdown, DownloadPdfUtil } from "https://mdsite.daza.ar/mdsite.js";
 
             async function downloadPdf() {
-                await downloadPdfUtil.download({
+                await DownloadPdfUtil.download({
                     selector: ".terminal-window",
                     filename: "daza-one-pager-2025.pdf",
                 });
